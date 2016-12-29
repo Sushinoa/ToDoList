@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+    <head>
+	    <title>Todo List</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="todolist.css">
+		<script src="todolist.js"></script>
+		<template>
+
+	        <li >
+			    <input class="check" type="checkbox">
+				<p contenteditable="true"></p>
+                <input type="number" value='1' min="1" max="10">
+				<button class = 'edit'>Edit</button>
+				<button class='del'>x</button>
+			</li>
+			
+		</template>
+	</head>
+	<body>
+	    <header>
+			<div class="div1" ></div>
+            <input type="text" class='task' placeholder="What should I do?" required>
+	        <button class="save">Add Todo</button>
+		</header>
+		
+		<main>
+			<label><input class="all" type="checkbox">Select All</label>
+			<button class="tog_all">Toggle All</button>
+			<button class="del_all">Delete All</button>
+		</main>
+		
+		<ul></ul>
+		
+        <footer>
+			<button class="show">Show All</button>
+		    <button class="active">Active</button>
+		    <button class="complete">Complete</button>
+		</footer>
+		
+	</body>
+</html>

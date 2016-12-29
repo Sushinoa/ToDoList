@@ -1,0 +1,167 @@
+
+header {
+	
+    padding: 20px;
+	display: flex;
+    justify-content: center;
+	
+}
+main{
+	width: 500px;
+    height: 50px;
+    margin: auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:  #f0ffff;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	color:dimgray;
+}
+
+footer {
+	width: 500px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid lightgray;
+	border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8ee5ee;
+}
+
+ul{
+  width: 460px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #F8F8FF;
+}
+
+ li{
+	margin: auto;
+	list-style: none;
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+li button{
+	height:25px;
+	border-radius: 5px;
+	background:   #bfefff;
+	box-shadow: 0 0 3px rgba(0.2,0,0,0);
+	color:grey;
+}
+
+li button:hover{
+	background:#00cdcd; 
+}
+
+[type='number']{
+	border-radius: 5px;
+}
+
+header button{
+	width: 90px;
+	height: 40px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	background: #00cd00;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	margin-left: 20px;
+	color:whitesmoke;
+	
+}
+header button:hover{
+	background:#00ee00;
+}
+main button {
+	
+	height: 25px;
+	border-radius: 5px;
+	background: #B0E0E6;
+	box-shadow: 0 0 3px rgba(0.2,0,0,0);
+	color:grey;
+}
+main button:hover{
+	background:#AFEEEE;
+}
+
+footer button {
+	height: 30px;
+	border-radius: 5px;
+	background: #00cdcd;
+	box-shadow: 0 0 3px rgba(0.2,0,0,0);
+	color:white;
+}
+footer button:hover{
+	background:  #008b8b;
+}
+.task{
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	
+}
+p {
+	
+	width: 200px;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+	color:grey;
+	background-color:  #fff68f;
+	
+}
+p:hover{
+	background: #ffc125;
+}
+
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+.order-4 {
+  order: 4;
+}
+.order-5 {
+  order: 5;
+}
+.order-6 {
+  order: 6;
+}
+.order-7 {
+  order: 7;
+}
+.order-8 {
+  order: 8;
+}
+.order-9 {
+  order: 9;
+}
+.order-10 {
+  order: 10;
+}
+
+.check {
+  
+    text-decoration: line-through;
+
+}
+.div1 {
+	color:red;
+}
+.hide{
+	display: none;
+}
+[data-isDone]{
+   display:none;
+}
